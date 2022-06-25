@@ -88,23 +88,23 @@ input = sys.stdin.readline
 #         break
 
 # 1110
-cire = int(input())
-num = cire
-sum = 0
+# cire = int(input())
+# num = cire
+# sum = 0
 
-while True:
+# while True:
 
-    a = num // 10   # 앞에 숫자를 //연산 몫으로 가져감
-    b = num % 10    # 뒤 숫자를 %연산 나머지로 가져감
-    c = (a+b) % 10    # 결과값에 %연산 나머지로 가져감
-    num = (b*10)+c  # b*10으로 두자리를 만든 후 c의 결과값을 더해줌
+#     a = num // 10   # 앞에 숫자를 //연산 몫으로 가져감
+#     b = num % 10    # 뒤 숫자를 %연산 나머지로 가져감
+#     c = (a+b) % 10    # 결과값에 %연산 나머지로 가져감
+#     num = (b*10)+c  # b*10으로 두자리를 만든 후 c의 결과값을 더해줌
 
-    sum += 1
+#     sum += 1
 
-    if num == cire:
-        break
+#     if num == cire:
+#         break
 
-print(sum)
+# print(sum)
 
 
 
