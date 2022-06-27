@@ -85,19 +85,19 @@
 #     print(sum)
 
 # 4344
-test = int(input("테스트 케이스:"))
+# test = int(input("테스트 케이스:"))
 
-for i in range(test):
-    stu = list(map(int, input().split()))
-    cnt=0
-    score = stu[1:]
-    hap = (sum(score)/(len(score)))
+# for i in range(test):
+#     stu = list(map(int, input().split()))
+#     cnt=0
+#     score = stu[1:]
+#     hap = (sum(score)/(len(score)))
     
-    for j in score:
-        if j > hap:
-            cnt+=1
-    baek = cnt/len(score)*100
-    print(f"{baek:0.3f}%")
+#     for j in score:
+#         if j > hap:
+#             cnt+=1
+#     baek = cnt/len(score)*100
+#     print(f"{baek:0.3f}%")
 
 
 
