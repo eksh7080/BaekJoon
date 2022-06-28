@@ -19,13 +19,10 @@
 # 4673
 
 # def selfnum(n):
-    
-#     a = 0
-#     num = list(str(n))
-
-#     for i in num:
-#         a += int(i)
-#     return n + a
+#     num = n
+#     for i in list(str(n)):
+#         num += int(i)
+#     return num
 
 # numbers = set(range(1, 10000))
 # newArr = set()
@@ -50,19 +47,19 @@
 
 # 1065
 
-def han(mod):
-    cnt = 0
-    for i in range(1, mod+1):
-        if i < 100:
-            cnt+=1
-        else:
-            num = list(map(int, str(i)))
-            if num[0] - num[1] == num[1] - num[2]:
-                cnt+=1
-    return cnt 
+# def han(mod):
+#     cnt = 0
+#     for i in range(1, mod+1):
+#         if i < 100:
+#             cnt+=1
+#         else:
+#             num = list(map(int, str(i)))
+#             if num[0] - num[1] == num[1] - num[2]:
+#                 cnt+=1
+#     return cnt 
 
-mod = int(input())
-print(han(mod))
+# mod = int(input())
+# print(han(mod))
 
 
 # mod = int(input())
