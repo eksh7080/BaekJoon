@@ -128,20 +128,86 @@
 
 # 2941
 # croatia = input()
-alpabet = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
-alpa = list(range(97,123))
-cnt = 0
-alpa_arr = []
+# alpabet = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
 
-for i in alpa:
-    alpa_arr.append(chr(i))
+# for i in alpabet:
+#     if i in croatia:
+#         croatia = croatia.replace(i,"A")
 
-print(alpa_arr)
-# for i in croatia:
-#     for j in range(len(alpabet)):
-#         if i in alpabet[j]:
-#             cnt+=1
+# print(len(croatia),croatia)
 
+# 1316
+
+# word = int(input())
+# cnt = word
+
+# for i in range(word):
+#     words = input()
+#     for j in range(len(words)-1):
+#         if words[j] == words[j+1]:
+#             print(j,words[j])
+#             continue
+#         elif words[j] in words[j+1:]:
+#             print(words[j+1:])
+#             cnt-=1
+#             break
+        
 # print(cnt)
+
+# word1 = int(input())
+# cnt1 = 0
+
+# for i in range(word1):
+#     words = input()
+#     for j in range(0,len(words)-1):
+#         if words[j] != words[j+1]:
+#             gropu = words[j+1:]
+#             if words[j] in gropu:
+#                 cnt1-=1
+#                 break
+#     cnt1+=1
+
+# print(cnt1)
+
+word2 = int(input())
+cnt2 = 0
+
+for i in range(word2):
+    words = input()
+    cnt = 0
+    for j in range(0,len(words)-1):
+        if words[j] != words[j+1]:
+            gropu = words[j+1:]
+            if gropu.count(words[j]) > 0:
+                cnt += 1
+    if cnt == 0:
+        cnt2 += 1
+
+print(cnt2)
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
