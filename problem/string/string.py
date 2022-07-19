@@ -169,21 +169,21 @@
 
 # print(cnt1)
 
-word2 = int(input())
-cnt2 = 0
+# word2 = int(input())
+# cnt2 = 0
 
-for i in range(word2):
-    words = input()
-    cnt = 0
-    for j in range(0,len(words)-1):
-        if words[j] != words[j+1]:
-            gropu = words[j+1:]
-            if gropu.count(words[j]) > 0:
-                cnt += 1
-    if cnt == 0:
-        cnt2 += 1
+# for i in range(word2):
+#     words = input()
+#     cnt = 0
+#     for j in range(0,len(words)-1):
+#         if words[j] != words[j+1]:
+#             gropu = words[j+1:]
+#             if gropu.count(words[j]) > 0:
+#                 cnt += 1
+#     if cnt == 0:
+#         cnt2 += 1
 
-print(cnt2)
+# print(cnt2)
         
         
 
